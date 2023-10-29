@@ -175,3 +175,18 @@ main{
 .question .icon{
     display: inline;
 }
+
+@media only screen and (max-width: 767px) {
+    /* Add your mobile-specific CSS styles here */
+    body {
+      background-color: #f2f2f2;
+      font-size: 14px;
+    }
+    /* ... */
+    .left-section{
+        display: none;
+    }
+    .right-section{
+        width: 100%;
+    }
+  }
